@@ -17,8 +17,17 @@ Methodology:
 ---
 
 To run:
+
 python rolling_averages.py
 
 ---
 Result:
+
 Result is stored in result.png
+---
+Bugs and Issues:
+
+The main issue I ran into was running matplotlib as Python would
+return a seg fault and cause the program to crash. After lots of hours, 
+I found out that it was a conflict with MacOS Big Sur, I had to revert 
+to an earlier version of matplotlib to resolve this issue.
