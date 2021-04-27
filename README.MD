@@ -18,3 +18,7 @@ Methodology:
 
 To run:
 python rolling_averages.py
+
+---
+Result:
+Result is stored in result.png
